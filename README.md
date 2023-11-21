@@ -63,5 +63,19 @@
 - [x] DMux4Way
 - [x] DMux8Way
 
+## 2장 불 연산
+
+### 목표
+
+이 장에서 소개된 모든 칩을 구현해 보자. 앞 장에서 설명했거나 만들어 보았던 칩들만 사용하자.
+
+### 칩 목록
+
+- [ ] 반가산기: HalfAdder
+- [ ] 전가산기: FullAdder
+- [ ] 가산기: Add16
+- [ ] 증분기: Inc16
+- [ ] 산술 논리 연산 장치: ALU
+
 [Nand2Tetris_official_website]: https://www.nand2tetris.org/
 [Nand2Tetris_korean_book]: https://blog.insightbook.co.kr/2019/03/29/%EB%B0%91%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0-%EB%A7%8C%EB%93%9C%EB%8A%94-%EC%BB%B4%ED%93%A8%ED%8C%85-%EC%8B%9C%EC%8A%A4%ED%85%9C/
