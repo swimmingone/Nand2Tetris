@@ -72,7 +72,7 @@
 ### 칩 목록
 
 - [x] 반가산기: HalfAdder
-- [ ] 전가산기: FullAdder
+- [x] 전가산기: FullAdder
 - [ ] 가산기: Add16
 - [ ] 증분기: Inc16
 - [ ] 산술 논리 연산 장치: ALU
