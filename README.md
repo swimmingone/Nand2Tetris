@@ -6,11 +6,12 @@
 ## 개발 환경
 
 - 자바가 필요하다
-- [Nand2Tetris > Software](https://www.nand2tetris.org/software)에서 __`Download the Nand2tetris Software Suite`__ 를 다운로드한다.
+- [Nand2Tetris > Software](https://www.nand2tetris.org/software)에서 **`Download the Nand2tetris Software Suite`** 를 다운로드한다.
   - `tools`: 시뮬레이터 등등
   - `projects`: 각 장을 실습하는데 필요한 파일들
 
-> __NOTE__ 참고로 이 저장소에서는 `projects` 파일 밑에 있는 파일들만 사용하고 툴은 따로 포함하지 않는다.
+> **NOTE** 참고로 이 저장소에서는 `projects` 파일 밑에 있는 파일들만 사용하고 툴은 따로 포함하지 않는다.
+
 ## 1장: 불 논리
 
 ### 목표
@@ -25,21 +26,22 @@
 
 1. `HardwareSimulator.sh` 실행 (자바가 필요함)
 2. `File > Load Chip` 를 선택하고, 로드할 칩의 `.hdl` 파일을 연다.
-    - 참고로 시뮬레이터에서는 `.hdl` 파일을 편집할 수 없으므로 코드를 작성할 때는 별도의 텍스트 에디터를 사용해야 한다.
-    - Visual Studio Code 사용 시, Extension으로 Nand2Tetris(hdl syntax highlighter)를 설치할 수 있다.
+   - 참고로 시뮬레이터에서는 `.hdl` 파일을 편집할 수 없으므로 코드를 작성할 때는 별도의 텍스트 에디터를 사용해야 한다.
+   - Visual Studio Code 사용 시, Extension으로 Nand2Tetris(hdl syntax highlighter)를 설치할 수 있다.
 3. `File > Load Script` 를 선택하고, 테스트 스크립트 `.tst` 파일을 연다.
 4. `Run > Run` 실행
-    - 이 때, `.hdl` 파일과 `.cmp` 파일이 같은 폴더에 있어야 한다.
-    - `Comparision ended successfully`가 표시되면 칩 테스트에 성공한 것
-    - 참고: 맥 터미널에서 `.out` 파일과 `.cmp` 파일을 직접 비교하고 싶은 경우, diff 에서 다음 옵션을 사용하라.
 
-      ```
-      diff --strip-trailing-cr 01/Not.out 01/Not.cmp
-      ```
+   - 이 때, `.hdl` 파일과 `.cmp` 파일이 같은 폴더에 있어야 한다.
+   - `Comparision ended successfully`가 표시되면 칩 테스트에 성공한 것
+   - 참고: 맥 터미널에서 `.out` 파일과 `.cmp` 파일을 직접 비교하고 싶은 경우, diff 에서 다음 옵션을 사용하라.
+
+     ```
+     diff --strip-trailing-cr 01/Not.out 01/Not.cmp
+     ```
 
 ### 기본 논리 게이트
 
-- [ ] Not
+- [x] Not
 - [ ] And
 - [ ] Or
 - [ ] Xor
