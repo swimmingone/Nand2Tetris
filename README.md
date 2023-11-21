@@ -77,5 +77,19 @@
 - [x] 증분기: Inc16
 - [x] 산술 논리 연산 장치: ALU
 
-[Nand2Tetris_official_website]: https://www.nand2tetris.org/
-[Nand2Tetris_korean_book]: https://blog.insightbook.co.kr/2019/03/29/%EB%B0%91%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0-%EB%A7%8C%EB%93%9C%EB%8A%94-%EC%BB%B4%ED%93%A8%ED%8C%85-%EC%8B%9C%EC%8A%A4%ED%85%9C/
+## 3장 순차 논리
+
+### 목표
+
+이 장에서 설명한 칩들을 모두 만들어보자. 구성 블록으로 사용할 수 있는 것은 기초 DFF 게이트와, 그 칩에서 파생된 칩들, 그리고 앞 장에서 나온 칩들 뿐이다.
+
+### 칩 목록
+
+- [ ] 1비트 레지스터: Bit
+- [ ] 레지스터: Register
+- [ ] 8-레지스터 메모리: RAM8
+- [ ] n-레지스터 메모리: RAM64, RAM512, RAM4K, RAM16K
+- [ ] 계수기: PC
+
+      [Nand2Tetris_official_website]: https://www.nand2tetris.org/
+      [Nand2Tetris_korean_book]: https://blog.insightbook.co.kr/2019/03/29/%EB%B0%91%EB%B0%94%EB%8B%A5%EB%B6%80%ED%84%B0-%EB%A7%8C%EB%93%9C%EB%8A%94-%EC%BB%B4%ED%93%A8%ED%8C%85-%EC%8B%9C%EC%8A%A4%ED%85%9C/
